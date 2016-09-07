@@ -7,5 +7,8 @@
 
 return array(
     'DEFAULT_CONTROLLER'=>'index',
-    'DEFAULT_ACTION'=>'index'
+    'DEFAULT_ACTION'=>'index',
+    'dsn'=>'mysql:host=localhost;dbname=test',
+    'userName'=>'ckwAdmin',
+    'passwd'=>'ckw123456'
 );
